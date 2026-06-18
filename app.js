@@ -13,7 +13,7 @@ const projects = {
       "A pair of clover-inspired character robots that perform a choreographed dance through Arduino car movement, sewn textile forms, and motorized body gestures.",
     heroImage: `${A}media/DP1/Final/D8570BC4-6637-4EB3-B464-64FE013E1284.jpg`,
     video: `${A}media/DP1/0608.mp4`,
-    presentation: `${A}media/DP1/機器人Four-leaff clover Spirits introduction.pdf`,
+    presentation: "https://canva.link/gc32ak1m85hi7c5",
     summary: [
       ["Theme", "Inspired by the four-leaf clover motif from Can This Love Be Translated?"],
       ["Materials", "Arduino car, non-woven fabric, cotton, styrofoam balls, 3D printed base."],
@@ -22,27 +22,29 @@ const projects = {
     ],
     final: [
       [`${A}media/DP1/Final/D8570BC4-6637-4EB3-B464-64FE013E1284.jpg`, "Final character robot"],
-      [`${A}media/DP1/Final/IMG_6447.jpg`, "Robot presentation image"]
+      [`${A}media/DP1/Final/IMG_6447.jpg`, "Final character robot"]
     ],
     process: [
       [`${A}media/DP1/Progress/Sketch/Hu/LINE_ALBUM_角色設計_260602_1.jpg`, "Hu character sketch"],
       [`${A}media/DP1/Progress/Sketch/Hu/LINE_ALBUM_角色設計_260602_2.jpg`, "Hu character sketch"],
       [`${A}media/DP1/Progress/Sketch/Hu/LINE_ALBUM_角色設計_260602_3.jpg`, "Hu character sketch"],
       [`${A}media/DP1/Progress/Sketch/Hu/LINE_ALBUM_角色設計_260602_4.jpg`, "Hu character sketch"],
-      [`${A}media/DP1/Progress/Sketch/Liang/IMG_5628.jpg`, "Liang mechanism and character sketch"],
-      [`${A}media/DP1/Progress/Sketch/Liang/IMG_5946.jpg`, "Liang form sketch"],
+      [`${A}media/DP1/Progress/Sketch/Liang/IMG_5628.jpg`, "Liang character sketch"],
+      [`${A}media/DP1/Progress/Sketch/Liang/IMG_5946.jpg`, "Liang character sketch"],
       [`${A}media/DP1/Progress/Sketch/Liang/IMG_5948.jpg`, "Liang character sketch"],
-      [`${A}media/DP1/Progress/PhysicalModel/Liang/IMG_5980.jpg`, "Physical prototype"],
-      [`${A}media/DP1/Progress/PhysicalModel/Liang/IMG_6035.jpg`, "Assembly detail"],
-      [`${A}media/DP1/Progress/PhysicalModel/Liang/IMG_6036.jpg`, "Assembly detail"],
-      [`${A}media/DP1/Progress/PhysicalModel/Liang/IMG_6042.jpg`, "Assembly detail"],
-      [`${A}media/DP1/Progress/PhysicalModel/Liang/IMG_6044.jpg`, "Assembly detail"],
-      [`${A}media/DP1/Progress/PhysicalModel/Hu/LINE_ALBUM_Dp1_prototype_260602_1.jpg`, "Handmade textile prototype"],
-      [`${A}media/DP1/Progress/PhysicalModel/Hu/LINE_ALBUM_Dp1_prototype_260602_2.jpg`, "Handmade textile prototype"],
-      [`${A}media/DP1/Progress/PhysicalModel/Hu/LINE_ALBUM_Dp1_prototype_260602_3.jpg`, "Handmade textile prototype"]
+      [`${A}media/DP1/Progress/PhysicalModel/Liang/IMG_5980.jpg`, "Physical robot manufacturing process"],
+      [`${A}media/DP1/Progress/PhysicalModel/Liang/IMG_6035.jpg`, "Liang Physical prototype"],
+      [`${A}media/DP1/Progress/PhysicalModel/Liang/IMG_6036.jpg`, "Liang Physical prototype"],
+      [`${A}media/DP1/Progress/PhysicalModel/Liang/IMG_6042.jpg`, "Liang Physical prototype"],
+      [`${A}media/DP1/Progress/PhysicalModel/Liang/IMG_6044.jpg`, "Liang Physical prototype"],
+      [`${A}media/DP1/Progress/PhysicalModel/Hu/LINE_ALBUM_Dp1_prototype_260602_1.jpg`, "Hu Physical prototype"],
+      [`${A}media/DP1/Progress/PhysicalModel/Hu/LINE_ALBUM_Dp1_prototype_260602_2.jpg`, "Hu Physical prototype"],
+      [`${A}media/DP1/Progress/PhysicalModel/Hu/LINE_ALBUM_Dp1_prototype_260602_3.jpg`, "Hu Physical prototype"]
     ],
     features: [
-      ["Character Design", "The clover spirits turn a small mobile platform into a memorable performance character."],
+      ["Clover Girl by Hu", "The girl character draws from Alice in Wonderland-like clothing and the brown-haired dolls Hu remembered from childhood. A headscarf was added during making to balance the empty head shape."],
+      ["Clover Robot by Liang", "The robot began from a love of cute, rounded Pokemon-like silhouettes. Clover shapes were added to the hair and wings to strengthen the core four-leaf theme."],
+      ["Music and Motion", "When designing the movement, we repeatedly listened to the beat and melody so the robots' paths and gestures could match the music more naturally."],
       ["Motor Control", "Guide ropes connect the front motors to the arms, allowing each robot to gesture while moving."],
       ["3D Printed Base", "A circular lifting module helps the body move up and down during the dance."]
     ],
@@ -58,8 +60,8 @@ const projects = {
     deep: "#20392b",
     short:
       "A Starbucks-oriented conversational agent with a tsundere personality, designed to help users customize drinks and make ordering more playful.",
-    heroImage: `${A}media/DP2/Final/First.png`,
-    presentation: `${A}media/DP2/YOYO課＿聊天機器人_DP2.pdf`,
+    heroImage: `${A}media/DP2/Final/SIren.png`,
+    presentation: "https://canva.link/ndaxpd742od937q",
     chatLink: "https://chatgpt.com/g/g-69e72aa62ce88191b37222022bfe31eb-siren",
     summary: [
       ["Agent Type", "A drink-ordering chatbot for recommendation, customization, and menu guidance."],
@@ -68,10 +70,10 @@ const projects = {
       ["Interaction Goal", "Make drink decisions faster while making the conversation less dull."]
     ],
     final: [
-      [`${A}media/DP2/Final/First.png`, "Siren chatbot cover image"],
-      [`${A}media/DP2/Final/截圖 2026-06-08 晚上9.57.20.png`, "Recommendation flow"],
-      [`${A}media/DP2/Final/截圖 2026-06-08 晚上9.57.43.png`, "Drink customization"],
-      [`${A}media/DP2/Final/截圖 2026-06-08 晚上9.59.50.png`, "Prompt behavior test"]
+      [`${A}media/DP2/Final/First.png`, "Siren chatbot setting screen"],
+      [`${A}media/DP2/Final/截圖 2026-06-08 晚上9.57.20.png`, "Ask for recommendations"],
+      [`${A}media/DP2/Final/截圖 2026-06-08 晚上9.57.43.png`, "Ask about recent offers"],
+      [`${A}media/DP2/Final/截圖 2026-06-08 晚上9.59.50.png`, "Inquire about best-selling items"]
     ],
     features: [
       ["Dynamic Menu Navigation", "Guides users through core espresso drinks, seasonal specials, and drink categories."],
@@ -92,6 +94,7 @@ const projects = {
     nav: "DP3",
     title: "Abee",
     titleLines: ["Abee"],
+    subtitle: "A fridge that comes to you.",
     kicker: "Design Project 3",
     accent: "#86aebb",
     deep: "#416b78",
@@ -101,9 +104,9 @@ const projects = {
     demoVideo: `${A}media/DP3/Final/dp3-video.mov`,
     youtubeId: "ij4kgT1EWTg",
     youtubeUrl: "https://youtu.be/ij4kgT1EWTg",
-    presentation: `${A}media/DP3/YOYO課＿期末機器人_DP3_Final.pdf`,
+    presentation: "https://canva.link/najbi4x9c3c5a28",
     summary: [
-      ["Original Direction", "The project began as a snowman household robot concept."],
+      ["Original Direction", "Abee began as a snowman household robot. After class feedback, one casual question, 'What about a fridge?', shifted it into a mobile mini fridge companion."],
       ["Final Concept", "A mobile mini fridge that turns a static appliance into an active home companion."],
       ["Functions", "Voice replenishment, food placement, cold storage, autonomous delivery, and docking."],
       ["Scenario", "Abee moves between kitchen and living room to serve users during rest, work, or entertainment."]
@@ -123,16 +126,16 @@ const projects = {
       [`${A}media/DP3/Progress/Sketch/Hu/86992D8E-A1DF-4E13-8DE4-95319A798313.png`, "Hu concept sketch"],
       [`${A}media/DP3/Progress/Sketch/Liang/IMG_6525.jpg?v=2`, "Liang concept sketch"],
       [`${A}media/DP3/Progress/Sketch/Liang/IMG_6528.jpg?v=2`, "Liang concept sketch"],
-      [`${A}media/DP3/Progress/Sketch/Liang/IMG_6690.jpg`, "Snowman form exploration"],
-      [`${A}media/DP3/Progress/Sketch/Liang/IMG_6691.jpg`, "Snowman form exploration"],
-      [`${A}media/DP3/Progress/Sketch/Liang/IMG_6692.jpg`, "Snowman form exploration"],
-      [`${A}media/DP3/Progress/PhysicalModel/IMG_6763.jpg`, "Prototype construction"],
-      [`${A}media/DP3/Progress/PhysicalModel/IMG_6765.jpg`, "Prototype construction"],
-      [`${A}media/DP3/Progress/PhysicalModel/IMG_6767.jpg`, "Prototype construction"],
-      [`${A}media/DP3/Progress/PhysicalModel/IMG_6768.jpg`, "Physical model detail"],
-      [`${A}media/DP3/Progress/PhysicalModel/IMG_6769.jpg`, "Physical model detail"],
-      [`${A}media/DP3/Progress/PhysicalModel/IMG_6771.jpg`, "Physical model detail"],
-      [`${A}media/DP3/Progress/PhysicalModel/IMG_6774.jpg`, "Prototype testing"]
+      [`${A}media/DP3/Progress/Sketch/Liang/IMG_6690.jpg`, "Liang preliminary robot idea sketch"],
+      [`${A}media/DP3/Progress/Sketch/Liang/IMG_6691.jpg`, "Liang preliminary robot idea sketch"],
+      [`${A}media/DP3/Progress/Sketch/Liang/IMG_6692.jpg`, "Liang preliminary robot idea sketch"],
+      [`${A}media/DP3/Progress/PhysicalModel/IMG_6763.jpg`, "Make a robot prototype using balloons, glue, and tissue paper"],
+      [`${A}media/DP3/Progress/PhysicalModel/IMG_6765.jpg`, "Make a robot prototype using balloons, glue, and tissue paper"],
+      [`${A}media/DP3/Progress/PhysicalModel/IMG_6767.jpg`, "Make a robot prototype using balloons, glue, and tissue paper"],
+      [`${A}media/DP3/Progress/PhysicalModel/IMG_6768.jpg`, "Robot's hand, architecture"],
+      [`${A}media/DP3/Progress/PhysicalModel/IMG_6769.jpg`, "Turn the robot's body into a night light"],
+      [`${A}media/DP3/Progress/PhysicalModel/IMG_6771.jpg`, "Taking a photo with the night light"],
+      [`${A}media/DP3/Progress/PhysicalModel/IMG_6774.jpg`, "Dry the robot prototype"]
     ],
     features: [
       ["Screen Face", "Displays friendly expressions and communicates robot status."],
@@ -153,38 +156,40 @@ const projects = {
   bellabot: {
     id: "bellabot",
     nav: "BellaBot",
-    title: "BellaBot Study",
-    titleLines: ["BellaBot", "Study"],
-    kicker: "Robot Observation",
+    title: "BellaBot Prototype",
+    titleLines: ["BellaBot", "Prototype"],
+    kicker: "Foam Board Prototype",
     accent: "#b89d61",
     deep: "#6d5a31",
     short:
-      "A study of service robot form, physical modeling, and how friendly visual cues influence human perception in everyday environments.",
+      "A foam-board prototyping exercise focused on building curved surfaces, trapezoid forms, and a stronger sense of three-dimensional robot volume.",
     heroImage: `${A}media/BellaBot/Final/IMG_6022.jpg`,
     summary: [
-      ["Project Focus", "Exploring service robot appearance, expression, and approachable interaction."],
-      ["Method", "Sketching, form observation, and physical model making."],
-      ["Outcome", "A prototype-oriented study of how a service robot can feel friendly and functional."],
-      ["Note", "This page uses placeholder text that can be replaced with your final BellaBot description."]
+      ["Project Focus", "Using foam board to construct a recognizable BellaBot-inspired form."],
+      ["Method", "Cutting, bending, layering, and assembling flat boards into curved and angled surfaces."],
+      ["Outcome", "A physical model that practices round arcs, trapezoid structure, and dimensional form control."]
     ],
     final: [
       [`${A}media/BellaBot/Final/IMG_6022.jpg`, "Final BellaBot model"],
-      [`${A}media/BellaBot/Final/IMG_6023.JPG`, "Final presentation photo"],
-      [`${A}media/BellaBot/Final/IMG_6047.jpg`, "Final physical detail"]
+      [`${A}media/BellaBot/Final/IMG_6023.JPG`, "Photo with the second group"],
+      [`${A}media/BellaBot/Final/IMG_6047.jpg`, "Teacher comments"]
     ],
     process: [
       [`${A}media/BellaBot/Progress/Sketch/IMG_5881.jpg`, "Sketch exploration"],
-      [`${A}media/BellaBot/Progress/Sketch/IMG_5885.JPG`, "Sketch refinement"],
-      [`${A}media/BellaBot/Progress/Sketch/IMG_5894.jpg`, "Form study"],
-      [`${A}media/BellaBot/Progress/PhysicalModel/IMG_5891.jpg`, "Physical model"],
-      [`${A}media/BellaBot/Progress/PhysicalModel/IMG_5895.jpg`, "Physical model"],
+      [`${A}media/BellaBot/Progress/Sketch/IMG_5885.JPG`, "Discuss ideas with the second group on the whiteboard"],
+      [`${A}media/BellaBot/Progress/Sketch/IMG_5894.jpg`, "Detailed design dimensions"],
+      [`${A}media/BellaBot/Progress/PhysicalModel/IMG_5891.jpg`, "Production process"],
+      [`${A}media/BellaBot/Progress/PhysicalModel/IMG_5895.jpg`, "Model assembly"],
       [`${A}media/BellaBot/Progress/PhysicalModel/IMG_5896.jpg`, "Model assembly"],
-      [`${A}media/BellaBot/Progress/PhysicalModel/IMG_5897.jpg`, "Prototype detail"]
+      [`${A}media/BellaBot/Progress/PhysicalModel/IMG_5897.jpg`, "Model assembly"],
+      [`${A}media/BellaBot/Progress/PhysicalModel/1.jpg`, "Prototype detail"],
+      [`${A}media/BellaBot/Progress/PhysicalModel/2.jpg`, "Prototype detail"],
+      [`${A}media/BellaBot/Progress/PhysicalModel/3.jpg`, "Prototype detail"]
     ],
     features: [
-      ["Friendly Form", "Rounded proportions and readable expression make the robot easier to approach."],
-      ["Service Context", "The concept considers how people encounter delivery robots in public or semi-public spaces."],
-      ["Model Making", "Physical prototyping helps test silhouette, scale, and visual personality."]
+      ["Curved Surface Practice", "Foam board was shaped and layered to create the rounded feeling of the robot body."],
+      ["Trapezoid Structure", "Angled panels helped the model feel less flat and closer to a service robot volume."],
+      ["Dimensional Assembly", "The prototype focused on how flat materials can become a more complete three-dimensional form."]
     ],
     skills: ["Observation", "Sketching", "Physical Model", "Robot Form", "Interaction Thinking"]
   }
@@ -234,7 +239,7 @@ function renderHome() {
         <div class="section-inner">
           <p class="eyebrow reveal">Project Archive</p>
           <h2 class="reveal">From sketch to interaction.</h2>
-          <p class="lead reveal">The portfolio keeps a consistent visual system while giving each project its own accent color, interaction rhythm, and case-study structure.</p>
+          <p class="lead reveal">Each project captures a different way of thinking about robots and AI, from character movement and chatbot personality to service scenarios and hands-on model making.</p>
           <div class="project-grid">${cards}</div>
         </div>
       </section>
@@ -258,11 +263,12 @@ function renderProject(id) {
           <aside class="info-panel">
             <p class="eyebrow reveal">${project.kicker}</p>
             <h1 class="project-title reveal">${title}</h1>
+            ${project.subtitle ? `<p class="project-subtitle reveal">${project.subtitle}</p>` : ""}
             <p class="lead reveal">${project.short}</p>
             <div class="button-row reveal">
               ${project.presentation ? `<a class="btn primary" href="${project.presentation}" target="_blank" rel="noreferrer">Presentation</a>` : ""}
               ${project.chatLink ? `<a class="btn primary" href="${project.chatLink}" target="_blank" rel="noreferrer">Chat with Siren</a>` : ""}
-              <a class="btn" href="#home">Back Home</a>
+              ${project.id === "bellabot" ? `<a class="btn" href="#home">Back Home</a>` : ""}
             </div>
             <div class="summary-list reveal">${summary}</div>
           </aside>
@@ -364,7 +370,6 @@ function scenarioSection(project) {
         <div class="media-frame reveal"><img src="${mainImage}" alt="Abee scenario"></div>
         <div>
           <p class="eyebrow reveal">Scenario Flow</p>
-          <h2 class="reveal">A fridge that comes to you.</h2>
           <div class="scenario-list">
             ${project.scenario
               .map(
@@ -437,40 +442,66 @@ function renderAbout() {
           <div>
             <p class="eyebrow reveal">About Us</p>
             <h1 class="reveal">Liang and Hu</h1>
-            <p class="lead reveal">We created this portfolio to document one semester of designing robots, AI agents, physical prototypes, and interaction scenarios for the course Designing Human-Robot Interaction and Human-AI Interaction.</p>
+            <p class="lead reveal">We are first-year graduate students in the Graduate Institute of Digital Content and Technologies at National Chengchi University. We created this portfolio to document one semester of designing robots, AI agents, physical prototypes, and interaction scenarios for the course Designing Human-Robot Interaction and Human-AI Interaction.</p>
             <div class="summary-list reveal">
-              <div class="summary-item"><strong>Liang Jia Xiang</strong><span>Technical prototyping, sketch development, system logic, and interaction planning.</span></div>
-              <div class="summary-item"><strong>Hu Nai-Yun</strong><span>Character design, visual storytelling, handmade modeling, and presentation development.</span></div>
+              <div class="summary-item"><strong>Shared Work</strong><span>Concept development, sketching, physical prototyping, interaction planning, presentation design, documentation, and final portfolio organization.</span></div>
               <div class="summary-item"><strong>Course Focus</strong><span>Human-robot interaction, human-AI interaction, physical prototyping, Arduino, prompt design, and scenario storytelling.</span></div>
             </div>
           </div>
           <div class="team-grid">
-            <article class="team-card reveal">
+            <a class="team-card reveal" href="https://github.com/1144kevin" target="_blank" rel="noopener">
               <img src="${A}media/About us/IMG_6095.jpg" alt="Team member portrait">
-              <div><h3>Team Member</h3><p>Portrait photo from the project archive.</p></div>
-            </article>
-            <article class="team-card reveal">
+              <div>
+                <h3>Liang Jia Xiang</h3>
+                <p>Birthday: 2002.11.16</p>
+                <p>Zodiac: Scorpio</p>
+                <p>Motto: You never know until you try.</p>
+              </div>
+            </a>
+            <a class="team-card reveal" href="https://github.com/arisa0118" target="_blank" rel="noopener">
               <img src="${A}media/About us/IMG_7605.jpg" alt="Team member portrait">
-              <div><h3>Team Member</h3><p>Portrait photo from the project archive.</p></div>
-            </article>
+              <div>
+                <h3>Hu Nai-Yun</h3>
+                <p>Birthday: 2003.01.18</p>
+                <p>Zodiac: Capricorn</p>
+                <p>Motto: Myth are our own making.</p>
+              </div>
+            </a>
           </div>
         </div>
       </section>
       <section class="section">
         <div class="section-inner">
-          <p class="eyebrow reveal">Semester Skills</p>
-          <h2 class="reveal">What this course helped us practice.</h2>
+          <p class="eyebrow reveal">Shared Contributions</p>
+          <h2 class="reveal">What we worked on together.</h2>
           <div class="feature-grid">
             ${[
-              ["Visual Ideation", "Turning rough sketches into character, product, and service concepts."],
-              ["Physical Prototyping", "Using craft materials, model making, and 3D printing to test form and scale."],
-              ["Interaction Design", "Designing how people speak to, move with, and emotionally interpret robots and AI agents."],
-              ["AI Prompting", "Building constraints, tone, and persona rules for a chatbot with a distinct voice."],
-              ["Arduino Motion", "Connecting motors, movement logic, and performance choreography."],
-              ["Storytelling", "Using scenarios, posters, and presentations to make a robot concept understandable."]
+              ["Concept Ideation", "We developed project directions together through discussion, sketching, feedback, and iteration."],
+              ["Physical Prototyping", "We both participated in model making, material testing, assembling, and refining physical forms."],
+              ["Interaction Design", "We designed how people would encounter, speak with, move with, and understand each robot or AI agent."],
+              ["Presentation Design", "We organized visual materials, Canva slides, project narratives, and final documentation together."],
+              ["Scenario Storytelling", "We built scenarios that explain why each robot exists and how it supports people in everyday contexts."],
+              ["Portfolio Production", "We selected images, refined captions, structured the website, and prepared the final presentation archive."]
             ]
               .map(([title, text]) => `<article class="feature reveal"><h3>${title}</h3><p>${text}</p></article>`)
               .join("")}
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="section-inner">
+          <p class="eyebrow reveal">Reflection</p>
+          <h2 class="reveal">那些星期二的夜晚</h2>
+          <div class="poem reveal">
+            <p>記憶裡的每個星期二夜晚，</p>
+            <p>有時是靜謐的長夜，<br>有時是窗外細碎的雨聲。</p>
+            <p>在藝中的我們，<br>為了這堂課努力地創作著。<br>一下動手製作模型，<br>一下構思機構設計，<br>一下埋首於程式與電路之間。</p>
+            <p>桌面散落著工具與草稿，<br>腦海奔馳著天馬行空的想像。</p>
+            <p>一下沉思，<br>一下歡笑，<br>藝中的教室裡總迴盪著我們討論與創作的聲音。</p>
+            <p>製作的過程中，</p>
+            <p>有過想法的分歧，<br>也有過挫折與迷惘，<br>卻總能在一次次溝通與磨合中繼續前行。</p>
+            <p>那些被機器人作業填滿的星期二，<br>最後留在記憶裡的，<br>不只是作品完成時的喜悅，</p>
+            <p>更是那段一起努力、<br>一起成長的我們。</p>
           </div>
         </div>
       </section>
